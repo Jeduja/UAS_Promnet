@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Pesok? Jurnal Review</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2? keluarga= Poppins:wght@200;300;400;600;700 & display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="home2.html"><img src="images/u3.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="home2.html">HOME</a></li>
+					<li><a href="javascript:void(0);" onclick="toogleMenu2()"><i onclick="myFunction2(this)" class="fa fa-plus-circle"></i>POST</a></li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="javascript:void(0);" onclick="toogleMenu()"><i onclick="myFunction(this)" class="fa fa-plus-circle"></i>THEME</a></li>
+
+<!------ post ------->
+			<div class="sub-post-warp">
+					<div class="sub-post" id="subPost">
+						<div class="isi-post">
+							<h2>SUBMIT <font color="#fff">& POST</font></h2>
+						</div>
+						<hr>
+
+						<a href="kesehatan.html" class="sub-menu-link">
+							<p>Kesehatan Mental dan Kesejahteraan</p>
+							<span><img src="images/arah.png"></span>
+						</a>
+						<a href="kesehatan.html" class="sub-menu-link">
+							<p>Kesehatan Mental dan Kesejahteraan</p>
+							<span><img src="images/arah.png"></span>
+						</a>
+					</div>
+				</div>
+				
+
+				<div class="sub-menu-warp">
+					<div class="sub-menu" id="subMenu">
+						<div class="isi-menu">
+							<h2>REFERENCE <font color="#fff">JOURNAL</font></h2>
+						</div>
+						<hr>
+
+						<a href="kesehatan.html" class="sub-menu-link">
+							<p>Kesehatan Mental dan Kesejahteraan</p>
+							<span><img src="images/arah.png"></span>
+						</a>
+						<a href="pendidikan.html" class="sub-menu-link">
+							<p>Pendidikan Daring dan Pembelajaran Jarak Jauh</p>
+							<span><img src="images/arah.png"></span>
+						</a>
+						<a href="lingkungan.html" class="sub-menu-link">
+							<p>Pengembangan konsep keberlanjutan lingkungan</p>
+							<span><img src="images/arah.png"></span>
+						</a>
+						<a href="kebugaran.html" class="sub-menu-link">
+							<p>Kesehatan dan Kebugaran</p>
+							<span><img src="images/arah.png"></span>
+						</a>
+						<a href="inves.html" class="sub-menu-link">
+							<p>Keuangan Pribadi dan Investasi</p>
+							<span><img src="images/arah.png"></span>
+						</a>
+						<a href="timnas.html" class="sub-menu-link">
+							<p>Naturalisasi timnas indonesia</p>
+							<span><img src="images/arah.png"></span>
+						</a>
+
+					</div>
+				</div>
+				</ul>
+			</div>
+		</nav>
+
+<div class="text-box">
+	<h1><font color="yellow">FIND YOUR </font>JOURNAL</h1>
+	<p>Menyediakan template dari berbagai tema jurnal serta review dan evaluasi yang memberikan kemudahan bagi anda<br><br> Dengan jaringan pembaca global dan pengindeksan di database ilmiah utama, PESOK memberikan visibilitas yang luas bagi karya penelitian Anda.</p>
+	<a target="_blank" href="panduan.html" class="hero-btn">PANDUAN</a>
+</div>
+
+</section>
+
+
+
+<!--------call to action------->
+
+<section class="cta">
+	<h1>Terimakasih, Kami tunggu anda kembali</h1>
+	<a href="index.html" class="hero-btn">LOGOUT</a>
+</section>
+
+
+<!--------JavaScript for Toggle Menu------->
+
+<script type="text/javascript">
+
+	function toogleMenu() {
+		let x = document.getElementById("subMenu");
+		if (x.style.display === "block") {
+			x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+	}
+	
+	function myFunction(x) {
+		x.classList.toggle("fa-minus-circle");
+	}
+	
+	function toogleMenu2() {
+		let y = document.getElementById("subPost");
+		if (y.style.display === "block") {
+			y.style.display = "none";
+		} else {
+			y.style.display = "block";
+		}
+	}
+	
+	function myFunction2(y) {
+		y.classList.toggle("fa-minus-circle");
+	}
+	
+	</script>
+
+
+</body>
+</html>
